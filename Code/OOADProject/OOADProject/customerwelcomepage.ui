@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerWelcomePage</class>
+ <widget class="QWidget" name="CustomerWelcomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>788</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomerWelcomePage</string>
+  </property>
+  <widget class="QPushButton" name="BuyItems">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>360</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buy Items</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ViewItems">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>360</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Items</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>150</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#00aaff;&quot;&gt;Select your desired option &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Logout">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>560</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ViewItems</sender>
+   <signal>clicked()</signal>
+   <receiver>CustomerWelcomePage</receiver>
+   <slot>CustomerviewItemsPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BuyItems</sender>
+   <signal>clicked()</signal>
+   <receiver>CustomerWelcomePage</receiver>
+   <slot>customercartPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>555</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Logout</sender>
+   <signal>clicked()</signal>
+   <receiver>CustomerWelcomePage</receiver>
+   <slot>LogoutPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>710</x>
+     <y>590</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>CustomerviewItemsPage()</slot>
+  <slot>customercartPage()</slot>
+  <slot>LogoutPage()</slot>
+ </slots>
+</ui>

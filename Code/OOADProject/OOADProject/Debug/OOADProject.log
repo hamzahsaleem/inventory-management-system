@@ -1,0 +1,71 @@
+﻿Build started 11/20/2015 8:54:40 AM.
+Project "C:\Users\hamza\Desktop\OOADProject\OOADProject\OOADProject.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt2\Qt5.5.1\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt2\Qt5.5.1\5.5\msvc2013\include\QtCore /IC:\Qt2\Qt5.5.1\5.5\msvc2013\include\QtGui /IC:\Qt2\Qt5.5.1\5.5\msvc2013\include\QtWidgets /IC:\Qt2\Qt5.5.1\5.5\msvc2013\include\QtSql /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt billing.cpp customercart.cpp customersignup.cpp customerviewallitems.cpp customerviewitems.cpp generateprofitreport.cpp generatesalesreport.cpp modifycategory.cpp modifyitem.cpp modifystaff.cpp promotememeber.cpp viewstock.cpp
+  billing.cpp
+  customercart.cpp
+  customersignup.cpp
+  customerviewallitems.cpp
+  customerviewitems.cpp
+  generateprofitreport.cpp
+  generatesalesreport.cpp
+  modifycategory.cpp
+  modifyitem.cpp
+  modifystaff.cpp
+  promotememeber.cpp
+  viewstock.cpp
+  Generating Code...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hamza\Desktop\OOADProject\Win32\Debug\\OOADProject.exe" /NOLOGO /LIBPATH:C:\Qt2\Qt5.5.1\5.5\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Sqld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hamza\Desktop\OOADProject\Win32\Debug\OOADProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hamza\Desktop\OOADProject\Win32\Debug\OOADProject.lib" /MACHINE:X86 /SAFESEH Debug\Admin.obj
+  Debug\adminportal.obj
+  Debug\billing.obj
+  Debug\blah.obj
+  Debug\Cashier.obj
+  Debug\Category.obj
+  Debug\Customer.obj
+  Debug\customercart.obj
+  Debug\customercheckout.obj
+  Debug\customersignup.obj
+  Debug\customerviewallitems.obj
+  Debug\customerviewitems.obj
+  Debug\customerwelcomepage.obj
+  Debug\dialoguebox.obj
+  Debug\moc_adminportal.obj
+  Debug\moc_billing.obj
+  Debug\moc_blah.obj
+  Debug\moc_customercart.obj
+  Debug\moc_customercheckout.obj
+  Debug\moc_customersignup.obj
+  Debug\moc_customerviewallitems.obj
+  Debug\moc_customerviewitems.obj
+  Debug\moc_customerwelcomepage.obj
+  Debug\moc_dialoguebox.obj
+  Debug\moc_generateprofitreport.obj
+  Debug\moc_generatesalesreport.obj
+  Debug\moc_modifycategory.obj
+  Debug\moc_modifyitem.obj
+  Debug\moc_modifystaff.obj
+  Debug\moc_ooadproject.obj
+  Debug\moc_promotememeber.obj
+  Debug\moc_viewstock.obj
+  Debug\qrc_ooadproject.obj
+  Debug\generateprofitreport.obj
+  Debug\generatesalesreport.obj
+  Debug\Item.obj
+  Debug\main.obj
+  Debug\modifycategory.obj
+  Debug\modifyitem.obj
+  Debug\modifystaff.obj
+  Debug\ooadproject.obj
+  Debug\OtherMember.obj
+  Debug\Person.obj
+  Debug\promotememeber.obj
+  Debug\StaffMember.obj
+  Debug\SublineItem.obj
+  Debug\viewstock.obj
+  OOADProject.vcxproj -> C:\Users\hamza\Desktop\OOADProject\Win32\Debug\OOADProject.exe
+Done Building Project "C:\Users\hamza\Desktop\OOADProject\OOADProject\OOADProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.71

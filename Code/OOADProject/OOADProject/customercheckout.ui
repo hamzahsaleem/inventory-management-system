@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerCheckout</class>
+ <widget class="QWidget" name="CustomerCheckout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>849</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomerCheckout</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>260</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buy More Items</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CusmtomerLogout">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>260</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>CusmtomerLogout</sender>
+   <signal>clicked()</signal>
+   <receiver>CustomerCheckout</receiver>
+   <slot>LogOutPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>424</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>CustomerCheckout</receiver>
+   <slot>Customerwelcomepage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>424</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>LogOutPage()</slot>
+  <slot>Customerwelcomepage()</slot>
+ </slots>
+</ui>

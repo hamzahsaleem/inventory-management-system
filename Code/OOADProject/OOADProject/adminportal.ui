@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminPortal</class>
+ <widget class="QWidget" name="AdminPortal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AdminPortal</string>
+  </property>
+  <widget class="QPushButton" name="AdminGenerateSalesReport">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate sales report</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdminGenerateProfitReport">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>370</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate profit report</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdminModifyCategory">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>280</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modify category</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdminPromoteMember">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>460</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Promote Member</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>70</y>
+     <width>481</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#00aaff;&quot;&gt;Administrator Portal &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdminViewStock">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>370</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>view stock</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="adminModifyItem">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>282</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modify item</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ADminModifyStaff">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>280</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modify staff</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Logout">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>530</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>adminModifyItem</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>ModifyitemPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ADminModifyStaff</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>modifystaffPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AdminModifyCategory</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>ModifycategoryPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AdminGenerateProfitReport</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>genProfitReportPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AdminGenerateSalesReport</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>gensalesreportPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AdminViewStock</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>ViewstockPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AdminPromoteMember</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>PromotememberPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>485</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Logout</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminPortal</receiver>
+   <slot>LogoutPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>650</x>
+     <y>560</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ModifyitemPage()</slot>
+  <slot>modifystaffPage()</slot>
+  <slot>PromotememberPage()</slot>
+  <slot>ModifycategoryPage()</slot>
+  <slot>gensalesreportPage()</slot>
+  <slot>genProfitReportPage()</slot>
+  <slot>ViewstockPage()</slot>
+  <slot>LogoutPage()</slot>
+ </slots>
+</ui>
